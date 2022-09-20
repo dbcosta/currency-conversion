@@ -1,4 +1,6 @@
-# Microservices - currency-conversion
+# currency-conversion
+
+Microservices - Currency Conversion Service
 
 This service is used to convert currency from one form to another by calling the /currency-exchange service.
 
