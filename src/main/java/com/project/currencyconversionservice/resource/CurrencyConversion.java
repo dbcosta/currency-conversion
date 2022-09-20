@@ -1,12 +1,12 @@
 package com.project.currencyconversionservice.resource;
 
-import java.math.BigDecimal;
-
-import org.springframework.stereotype.Component;
-
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 @Data
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class CurrencyConversion {
 
 	private String fromCurrencyCode;
